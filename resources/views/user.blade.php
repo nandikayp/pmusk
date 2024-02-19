@@ -116,9 +116,9 @@
                         Status
                     </th>
                     @if (Auth::user()->role != 'siswa')
-                        <th scope="col" class="px-32 py-3">
+                    <th scope="col" class="px-30py-3">
                             Option
-                        </th>
+                    </th>
                     @endif
                 </tr>
             </thead>
